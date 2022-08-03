@@ -7,9 +7,9 @@ class Navigation extends React.Component {
       <div className="nav-container">
         <div className="logo">MATH MAGICIAN</div>
         <ul className="nav-ul">
-          <li><a href="https://www.google.com/">HOME</a></li>
-          <li><a href="https://www.google.com/">CALCULATOR</a></li>
-          <li><a href="https://www.google.com/">QUOTE</a></li>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/">CALCULATOR</a></li>
+          <li><a href="/">QUOTE</a></li>
         </ul>
       </div>
     );
