@@ -1,5 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import calculate from '../logic/calculate';
 

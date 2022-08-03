@@ -1,10 +1,8 @@
-/* eslint-disable react/prefer-stateless-function */
-
 import React from 'react';
 import Calculator from './components/Calculator';
 import Navigation from './components/Nav';
 
-class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
       <div>
