@@ -4,7 +4,7 @@
 
 
 # Math Magicians 🧮
-> React Web App for math lovers.
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## Tech ⌘⇧
 - **HTML & CSS best practices:** Correct use of tags, elements, properties and syntax.
@@ -32,8 +32,13 @@
 - **Milestone 2 - Calculator logic with events (1h)** 
 - **Milestone 3 - Refactor with hooks (1h)** 
 
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/raminka13/math-magicians/issues).
+
 ## Show your support 🦾
 - Give a ⭐️ if you like this project!
 
 ## License 📝 
-- This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](MIT.md) licensed.
