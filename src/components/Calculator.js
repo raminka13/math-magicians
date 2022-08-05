@@ -14,7 +14,7 @@ class Calculator extends React.Component {
   handleClick = (event) => {
     const res = calculate(this.state, event.target.textContent);
     this.setState(res);
-  }
+  };
 
   render() {
     const { total, next } = this.state;
