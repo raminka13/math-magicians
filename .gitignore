@@ -5,15 +5,11 @@
 /.pnp
 .pnp.js
 
-# linters
-.eslintrc.json
-.stylelintrc.json
-
 # testing
 /coverage
 
 # production
-# /build
+/build
 
 # misc
 .DS_Store
