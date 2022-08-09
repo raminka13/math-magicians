@@ -1,18 +1,41 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Nav.css';
 
-class Navigation extends React.PureComponent {
-  render() {
-    return (
-      <div className="nav-container">
-        <div className="logo">MATH MAGICIAN</div>
-        <ul className="nav-ul">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/">CALCULATOR</a></li>
-          <li><a href="/">QUOTE</a></li>
+function Navigation() {
+  const links = [
+    {
+      id: 1,
+      path: '/',
+      text: 'Home',
+    },
+    {
+      id: 2,
+      path: '/calculator',
+      text: 'Calculator',
+    },
+    {
+      id: 3,
+      path: '/quote',
+      text: 'Quote',
+    },
+  ];
+  return (
+    <nav>
+      <div className="navContainer">
+        <h3 className="logo">Math Magicians</h3>
+        <ul className="navLinks">
+          {links.map((link) => (
+            <li className="NavLink" key={link.id}>
+              <NavLink to={link.path}>
+                {link.text}
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </div>
-    );
-  }
+    </nav>
+  );
 }
 
 export default Navigation;
