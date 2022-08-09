@@ -3,32 +3,36 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 50%;
-  width: 80%;
+  height: 63%;
+  width: 81%;
   max-width: 900px;
-  border-radius: 2em;
-  background-color: #fbfbfbea;
+  border-radius: 1.5em;
+  background-color: #fbfbfbf4;
 }
 
 .welcome {
-  font-size: 2.5rem;
-  margin-bottom: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem;
   text-align: center;
 }
 
 .description {
-  font-size: 1.8rem;
-  width: 45%;
+  font-size: 36px;
+  font-weight: 300;
+  width: 80%;
   text-align: center;
 }
 
 .listContainer {
-  margin: 25px 0 0 30px;
+  width: 70%;
 }
 
 .listItem {
   list-style: square;
-  font-size: 1.6rem;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .listItem::marker {
