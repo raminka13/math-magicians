@@ -1,0 +1,78 @@
+.homePageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50%;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 2em;
+  background-color: #fbfbfbea;
+}
+
+.welcome {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.8rem;
+  width: 45%;
+  text-align: center;
+}
+
+.listContainer {
+  margin: 25px 0 0 30px;
+}
+
+.listItem {
+  list-style: square;
+  font-size: 1.6rem;
+}
+
+.listItem::marker {
+  color: orange;
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .homePageContainer {
+    padding: 25px 35px;
+  }
+
+  .welcome {
+    font-size: 2rem;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 1.4rem;
+  }
+
+  .listItem {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .homePageContainer {
+    padding: 25px 35px;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .description {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .listItem {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+}
