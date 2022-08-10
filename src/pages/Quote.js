@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import './Quote.css';
 
 const Quote = () => {
-  const [quotes, setQuote] = useState('');
+  const [quotes, setQuote] = useState({
+    quote: 'Mathematics is the music of reason.',
+    author: 'James Joseph Sylvester'
+  });
 
   const updateQuote = async () => {
     const res = await fetch('https://random-math-quote-api.herokuapp.com/');
