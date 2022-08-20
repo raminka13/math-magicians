@@ -6,10 +6,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/827a2dcc-fbb8-4cc7-8d27-51a8bbc80103/deploy-status)](https://app.netlify.com/sites/math-magicians-raminka/deploys)
 
 
-
 # Math Magicians 🧮
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
+![](./ScreenShot-math-magicians.png)
 ## Static Deploy
 - [Netlify](https://math-magicians-raminka.netlify.app/)
 - [Github Pages](https://raminka13.github.io/math-magicians/)
